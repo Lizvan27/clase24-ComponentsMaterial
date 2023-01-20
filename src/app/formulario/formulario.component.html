@@ -1,0 +1,16 @@
+<div class="dialog">
+    <ol>
+      <li>
+        <mat-form-field appearance="fill">
+          <mat-label>¿Cual es tu nombre?</mat-label>
+          <input matInput [(ngModel)]="nombre">
+        </mat-form-field>
+      </li>
+      <li>
+        <button mat-raised-button (click)="ver()">Abrir Dialogo</button>
+      </li>
+      <li *ngIf="VerDeporte">
+        Tu deporte favorito es: <i>{{VerDeporte}}</i>
+      </li>
+    </ol>
+  </div>
