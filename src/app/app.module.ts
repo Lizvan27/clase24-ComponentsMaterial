@@ -24,6 +24,7 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { LoginComponent } from './login/login.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { ComuniComponent } from './comuni/comuni.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FormsModule } from '@angular/forms';
     NavigationComponent,
     DashComponent,
     FormularioComponent,
-    LoginComponent
+    LoginComponent,
+    ComuniComponent
   ],
   imports: [
     BrowserModule,
