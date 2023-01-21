@@ -1,5 +1,5 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Dashboard</h1>
+  <h1 class="mat-h1">Importancia del deporte</h1>
   <mat-grid-list cols="2" rowHeight="350px">
     <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
       <mat-card class="dashboard-card">
@@ -16,7 +16,16 @@
           </mat-card-title>
         </mat-card-header>
         <mat-card-content class="dashboard-card-content">
-          <div>Card Content Here</div>
+          <div>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/417/772/non_2x/vector-children-doing-different-kind-of-sports.jpg" 
+            width="20%">
+            <div class="parrafo">
+              <p>La práctica de deporte es uno de los pilares para una vida saludable a cualquier edad. Ya sea salir a correr, 
+                dar largos paseos, jugar un partido de fútbol con los amigos o hacer yoga, practicar algún deporte te hará estar 
+                más saludable y ayuda a mantener un buen ánimo, además de permanecer más feliz y con más energía gracias a los 
+                beneficios de la actividad física. Por eso, en este artículo te vamos a explicar la importancia del deporte para una vida saludable.</p>
+            </div>
+          </div>
         </mat-card-content>
       </mat-card>
     </mat-grid-tile>

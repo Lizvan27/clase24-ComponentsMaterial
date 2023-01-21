@@ -1,1 +1,18 @@
-<p>login works!</p>
+<div class="grid-container">
+    <h2>Login</h2>
+    <div>
+        <mat-form-field appearance="fill" class="caja">
+            <mat-label for="email">Correo</mat-label>
+            <input matInput [(ngModel)]="email"  id="email" name="email"  placeholder="lizvan@gmail.com">
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill" class="caja">
+            <mat-label for="pass">Contraseña</mat-label>
+            <input matInput [(ngModel)]="password" id="pass" name="pass"   placeholder="contraseña">
+        </mat-form-field>
+    </div>
+    <div fxFlex="100%">
+        <button mat-raised-button (click)="mostrar()">Ingresar</button>
+    </div>
+</div>
